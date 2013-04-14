@@ -64,7 +64,6 @@ TARGET_RECOVERY_FSTAB := device/huawei/u8951/recovery.fstab
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_USES_MMCUTILS := true
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 DEVICE_RESOLUTION := 480x854
 SP1_NAME := "cust"
 SP1_BACKUP_METHOD := files
@@ -81,7 +80,7 @@ TW_FLASH_FROM_STORAGE := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun%d/file
 BOARD_USE_CUSTOM_RECOVERY_FONT:= \"roboto_10x18.h\"
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TW_BRIGHTNESS_PATH := /sys/devices/platform/msm_fb.524288/leds/lcd-backlight/brightness
+TW_BRIGHTNESS_PATH := /sys/devices/platform/msm_fb.589824/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
 TW_BOARD_CUSTOM_GRAPHICS := ../../../device/huawei/u8951/recovery/graphics.c
 
