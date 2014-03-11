@@ -15,4 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/u8951.mk
+    $(LOCAL_DIR)/u8951.mk \
+    $(LOCAL_DIR)/omni_u8951.mk
