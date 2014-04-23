@@ -11,5 +11,5 @@ $(call inherit-product, device/huawei/u8951/u8951.mk)
 PRODUCT_DEVICE := u8951
 PRODUCT_NAME := omni_u8951
 PRODUCT_BRAND := huawei
-PRODUCT_MODEL := Ascend Y300
+PRODUCT_MODEL := Ascend G510
 PRODUCT_MANUFACTURER := huawei
